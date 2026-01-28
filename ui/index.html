@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CFT Main Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="topbar">
+        <button class="back" onclick="sendAction('back')">← Back</button>
+    </div>
+
+    <div class="tiles">
+        <div class="tile" onclick="sendAction('xiaomi')">Xiaomi</div>
+        <div class="tile" onclick="sendAction('mediatek')">MediaTek</div>
+        <div class="tile" onclick="sendAction('qualcomm')">Qualcomm</div>
+        <div class="tile" onclick="sendAction('samsung')">Samsung</div>
+        <div class="tile" onclick="sendAction('frp')">Google FRP</div>
+        <div class="tile" onclick="sendAction('unisoc')">Unisoc</div>
+        <div class="tile" onclick="sendAction('adb')">ADB Tools</div>
+    </div>
+
+    <div class="footer">CFT UI Rework</div>
+
+    <script src="app.js"></script> 
+</body>
+</html>
